@@ -72,7 +72,7 @@ export const InfoList = styled.ul`
   display: flex;
   list-style: none;
   gap: 1.5rem;
-  font-size: 12px;
+  font-size: 12px ;
 
   li {
     display: flex;
