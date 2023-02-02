@@ -16,7 +16,7 @@ export function PostDetail() {
 
   async function loadPostData() {
     api
-      .get(`/repos/marrcelosantana/github-blog/issues/${id}`)
+      .get(`/repos/marrcelosantana/git-blog/issues/${id}`)
       .then((response) => setData(response.data));
   }
 

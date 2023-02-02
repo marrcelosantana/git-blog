@@ -26,7 +26,7 @@ export function UserProvider({ children }: UserProviderProps) {
 
   async function loadPosts(query?: string) {
     const response = await api.get(
-      `/search/issues?q=${query ?? ""}repo:marrcelosantana/github-blog`
+      `/search/issues?q=${query ?? ""}repo:marrcelosantana/git-blog`
     );
     setRepository(response.data);
   }
